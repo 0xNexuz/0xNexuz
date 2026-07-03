@@ -1,109 +1,146 @@
-# Magnus Krypt / 0xNexuz
+# Magnus Krypt - Web3 Product & Infrastructure Builder
 
-Crypto-native product engineer building privacy tooling, agentic infrastructure, payment rails, protocol prototypes, and fast public products.
+Building fast, public products across privacy, agent infrastructure, Solana payments, security tooling, and crypto-native execution systems.
 
-I ship in public, move quickly from idea to working artifact, and care about the product surface as much as the underlying system. My work sits around Web3, Solana, ZK/privacy, autonomous agents, security response, and developer-facing tools.
+## Current Focus
 
-[Portfolio](https://github.com/0xNexuz/magnus_port) - [X / Twitter](https://x.com/magnuskrypt) - [Web3.bio](https://web3.bio/magnuskrypt.farcaster)
+Crypto product and infrastructure systems
+
+- Privacy-preserving compliance and proof flows
+- AI-assisted Solana transaction infrastructure
+- Autonomous agent vaults, routing, and execution surfaces
+- Payment rails, offline settlement, and credit tooling
+- Security response, app analysis, and signal forensics
+- Fast product demos with clean user-facing interfaces
+
+## Core Projects
+
+**smart-transaction-stack** - AI-assisted Solana smart transaction stack
+
+- Jito bundle-oriented transaction flow
+- Yellowstone streaming direction
+- Low-latency Solana execution infrastructure
+- Built around practical transaction intelligence, not just UI demos
+
+**anon-compliance** - Private compliance proofs on Stellar testnet
+
+- Groth16 verification flow
+- Privacy-preserving compliance angle
+- Stellar testnet deployment direction
+- Strong fit for ZK, compliance, and regulated crypto workflows
+
+**agent-vault** - Frontend-facing agent vault infrastructure
+
+- Agent-oriented custody / control surface
+- Live product interface
+- Public deployment for testing the agent ownership narrative
+- Part of a broader agentic infrastructure lane
+
+**Nexus-Pay** - Offline-first Solana payment relay
+
+- Zero-bandwidth Solana relay concept
+- Offline-first state channel architecture
+- Built for payment flows that keep working under poor connectivity
+
+**quantedge** - Autonomous on-chain benchmarking and quant trading agent
+
+- Mantle ecosystem trading / benchmarking direction
+- Agentic market intelligence
+- Smart-contract-driven execution experiments
+
+**edge-arena / alpha-desk / snowball-studio** - Product surfaces
+
+- Fast public web products
+- Live deployment mindset
+- Interface-first proof that the system can be understood by real users
+
+## Technical Stack
+
+**Product Engineering**
+
+- TypeScript / JavaScript
+- React-style frontend surfaces
+- HTML / CSS for lightweight deployments
+- Vercel-ready demos and product pages
+
+**Crypto Infrastructure**
+
+- Solana payment and transaction systems
+- Jito bundle / transaction stack direction
+- Stellar testnet and privacy proofs
+- EVM / Solidity prototypes
+- Offline-first payment rails
+
+**Agentic Systems**
+
+- Autonomous agents and execution flows
+- Agent vaults and routing
+- Market intelligence experiments
+- Self-healing infrastructure patterns
+
+**Security And Privacy**
+
+- Privacy analysis for Solana dApps
+- Private compliance proofs
+- Incident response workflows
+- App analysis and signal forensics
+
+## What Shipping Looks Like
+
+- 64 public repositories and counting
+- Live Vercel deployments across product experiments
+- Privacy / compliance proof systems moving beyond toy demos
+- Solana payment and transaction infrastructure prototypes
+- Agent vault, routing, and autonomous execution experiments
+- Security tooling, app analysis, and incident-response concepts
+- Fast hackathon-to-product execution with visible artifacts
+
+## Build Lanes
+
+1. **Privacy and compliance** - `anon-compliance`, `P-Lint`, `appxray`
+2. **Solana infrastructure** - `smart-transaction-stack`, `Nexus-Pay`, `aegis-bridge`
+3. **Agent infrastructure** - `agent-vault`, `quantedge`, `vibe_router`, `z-lite-agent`
+4. **Security response** - `solana-incident-response-skill`, `signal-autopsy`, `appxray`
+5. **Product surfaces** - `edge-arena`, `alpha-desk`, `snowball-studio`, `marlindentalclinc`
+6. **Data / DePIN** - `HydroSync`, `eco-oracle`, `sanity_sync`
+
+## Philosophy
+
+- Ship working systems, not just pitch decks.
+- Make crypto infrastructure legible through usable product surfaces.
+- Treat demos as proof: source code, live URL, and a clear problem statement.
+- Build across the stack when needed: protocol concept, backend logic, frontend surface, and launch copy.
+- Move fast enough for hackathons, but structure ideas so they can become real infrastructure.
+
+## Engineering Priorities
+
+1. **Privacy-preserving execution** - Compliance and proof systems that protect users.
+2. **Agent-owned infrastructure** - Tools agents can use, pay through, and reason over.
+3. **Solana transaction intelligence** - Faster, smarter transaction stacks and payment rails.
+4. **Security workflows** - Incident response and app analysis for crypto teams.
+5. **Product clarity** - Interfaces that make technical systems understandable.
+
+## Work In Progress
+
+- Expanding AI-assisted Solana transaction tooling.
+- Building stronger agent vault and execution primitives.
+- Exploring privacy-preserving compliance and verification flows.
+- Turning security response ideas into practical developer tools.
+- Shipping more live product surfaces around crypto workflows.
+
+## Open Source
+
+Shipping public implementations, experiments, and product proofs:
+
+- Protocol prototypes
+- Agent infra sketches
+- Payment rails
+- Privacy and compliance tools
+- Security utilities
+- Live web demos
+
+Most repositories are fast iterations: from hackathon execution to infrastructure concepts to public-facing products.
 
 ---
 
-## What I Build
-
-| Lane | What I Can Own | Strong Signals |
-| --- | --- | --- |
-| Privacy and compliance | Private proofs, compliance UX, privacy analysis | `anon-compliance`, `P-Lint`, `appxray` |
-| Agentic infrastructure | Autonomous agents, routing, market intelligence | `agent-vault`, `quantedge`, `vibe_router`, `z-lite-agent` |
-| Protocol and payments | Offline rails, relays, payment state channels | `Nexus-Pay`, `aegis-bridge`, `Arc-Drift` |
-| Security response | Incident workflows, signal analysis, app inspection | `solana-incident-response-skill`, `signal-autopsy`, `appxray` |
-| Product engineering | Polished demos, fast web apps, client-ready surfaces | `edge-arena`, `alpha-desk`, `snowball-studio`, `marlindentalclinc` |
-| DePIN and data | Environmental networks, autonomous QA, data vendors | `HydroSync`, `eco-oracle`, `sanity_sync` |
-
----
-
-## Best Builds
-
-### Current / Recent
-
-| Project | Focus | Why It Matters |
-| --- | --- | --- |
-| [edge-arena](https://github.com/0xNexuz/edge-arena) | Product build | Recent JavaScript build with a live deployment surface. |
-| [agent-vault](https://github.com/0xNexuz/agent-vault) | Agent infrastructure | Frontend-facing agent vault experiment with public deployment. |
-| [alpha-desk](https://github.com/0xNexuz/alpha-desk) | Product interface | Fast product desk build with a deployed UI. |
-| [anon-compliance](https://github.com/0xNexuz/anon-compliance) | Privacy / compliance | Private compliance proofs on Stellar testnet with Groth16 verification. |
-| [snowball-studio](https://github.com/0xNexuz/snowball-studio) | Product engineering | TypeScript product build with a live web presence. |
-
-### Protocols, Payments, And Infra
-
-| Project | Focus | Notes |
-| --- | --- | --- |
-| [Nexus-Pay](https://github.com/0xNexuz/Nexus-Pay) | Solana payments | Zero-bandwidth Solana relay and offline-first state channel. |
-| [aegis-bridge](https://github.com/0xNexuz/aegis-bridge) | Data bridge | Offline-to-online data bridge. |
-| [quantedge](https://github.com/0xNexuz/quantedge) | Trading agent | Autonomous on-chain benchmarking and quant trading agent for Mantle. |
-| [Sabiswarm](https://github.com/0xNexuz/Sabiswarm) | AI mesh | Zero-cloud, peer-to-peer AI mesh network. |
-| [vibe_router](https://github.com/0xNexuz/vibe_router) | Agentic infra | Self-healing agentic infrastructure. |
-
-### Product And Research
-
-| Project | Focus | Notes |
-| --- | --- | --- |
-| [arc-drifts](https://github.com/0xNexuz/arc-drifts) | Payment product | Web prototype around time-based payment flows. |
-| [Pundit-protocol](https://github.com/0xNexuz/Pundit-protocol) | Prediction/protocol product | TypeScript product surface with live deployment. |
-| [LI.FI-demo](https://github.com/0xNexuz/LI.FI-demo) | Intents education | Interactive LI.FI Intents mini builder challenge explainer. |
-| [HydroSync](https://github.com/0xNexuz/HydroSync) | DePIN | Environmental science DePIN product. |
-| [linguanova-translate-bot](https://github.com/0xNexuz/linguanova-translate-bot) | Language tooling | Web-based multi-language translation bot. |
-
----
-
-## Live Demos
-
-- [Portfolio / builder dossier](https://github.com/0xNexuz/magnus_port)
-- [edge-arena](https://edge-arena-eight.vercel.app)
-- [agent-vault](https://agentvault-frontend.vercel.app)
-- [alpha-desk](https://alpha-desk-ivory.vercel.app)
-- [anon-compliance](https://anon-compliance.vercel.app)
-- [snowball-studio](https://snowball-studio.vercel.app)
-- [arc-drifts](https://arc-drift.vercel.app)
-- [P-Lint](https://p-lint.vercel.app)
-
----
-
-## Technical Range
-
-```txt
-Languages:       TypeScript, JavaScript, Rust, Solidity, Go, Python, HTML/CSS
-Domains:         Web3, Solana, ZK/privacy, agents, payments, DePIN, security tooling
-Product style:   Prototype fast, ship live, keep the interface credible
-Strength:        Turning rough crypto ideas into working demos and public artifacts
-```
-
----
-
-## How I Think About Building
-
-- Start from a concrete problem, not a vague trend.
-- Ship a visible artifact quickly.
-- Make the demo understandable enough for users, judges, founders, and engineers.
-- Keep public proof close to the code: source, live demo, and clear product framing.
-- Move across the stack when needed: protocol idea, backend logic, frontend surface, and launch copy.
-
----
-
-## GitHub Snapshot
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0xNexuz&show_icons=true&hide_border=true&theme=transparent)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0xNexuz&layout=compact&hide_border=true&theme=transparent)
-
----
-
-## Open To
-
-- Web3 product engineering roles.
-- Protocol prototype and hackathon builds.
-- Privacy, compliance, and security tooling.
-- Solana payment and infrastructure experiments.
-- Agentic infra and autonomous market tools.
-- Fast MVPs with a strong product surface.
-
-Reach me on [X / Twitter](https://x.com/magnuskrypt) or explore the build trail on [GitHub](https://github.com/0xNexuz).
+Links: [GitHub](https://github.com/0xNexuz) - [Portfolio](https://github.com/0xNexuz/magnus_port) - [X/Twitter](https://x.com/magnuskrypt) - [Web3.bio](https://web3.bio/magnuskrypt.farcaster)
